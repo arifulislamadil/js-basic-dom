@@ -72,3 +72,7 @@ for (const blog of blogs) {
     blog.style.padding = "10px";
     blog.style.margin = "20px";
 }
+
+
+const blogsList = document.getElementById('blogs');
+console.log(blogsList.childNodes);
